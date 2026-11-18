@@ -1,9 +1,14 @@
 package Methods;
 
+import access.A;
+
 import java.util.Arrays;
 
 public class Change {
     public static void main(String[] args) {
+
+    A a = new A(8);
+    int num = a.num;
 
     String name = "sneha";
     ChangeName(name);

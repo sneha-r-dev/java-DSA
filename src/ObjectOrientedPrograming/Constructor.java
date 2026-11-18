@@ -1,14 +1,21 @@
 package ObjectOrientedPrograming;
 
+import access.A;
+
 public class Constructor {
     public static void main(String[] args) {
+
+
+        A a = new A(45);
+        int num = a.num;
+        a.getNum();
 
 
         Statics p1 = new Statics(23, 6778, "sneha");
         Statics p2 = new Statics(33, 4433, "Anu");
         Statics p3 = new Statics(19, 1234, "azar");
 
-        System.out.println(Statics.distance);
+//        System.out.println(Statics.distance);
 //        System.out.println(p2.distance);
 //        System.out.println(p3.distance);
 
@@ -25,22 +32,22 @@ public class Constructor {
 //        System.out.println(p3.name);
 //    }
 
-        class Marathon {
-            int bibNum;
-            String name;
-
-            Marathon(int bib, String names) {
-                this.bibNum = bib;
-                this.name = names;
-            }
-
-            Marathon(Marathon p1) {
-                this.bibNum = p1.bibNum;
-                this.name = p1.name;
-            }
-
-
-        }
+//        class Marathon {
+//            int bibNum;
+//            String name;
+//
+//            Marathon(int bib, String names) {
+//                this.bibNum = bib;
+//                this.name = names;
+//            }
+//
+//            Marathon(Marathon p1) {
+//                this.bibNum = p1.bibNum;
+//                this.name = p1.name;
+//            }
+//
+//
+//        }
     }
 }
 
